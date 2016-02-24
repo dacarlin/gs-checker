@@ -1,0 +1,171 @@
+########################################
+# Program: merger
+# Rundate: Wed 24 Feb 2016 11:22:12
+# Commandline: merger
+#    -asequence 191641_dna_seq_rep_8852898_zip//A08.fwd.fasta
+#    -bsequence 191641_dna_seq_rep_8852898_zip//A08.rev.fasta
+#    -sreverse2
+#    -outfile 191641_dna_seq_rep_8852898_zip//A08.merger
+#    -outseq 191641_dna_seq_rep_8852898_zip//A08.fa
+# Align_format: simple
+# Report_file: 191641_dna_seq_rep_8852898_zip/A08.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: A08
+# 2: A08
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1484
+# Identity:     563/1484 (37.9%)
+# Similarity:   563/1484 (37.9%)
+# Gaps:         887/1484 (59.8%)
+# Score: 2483.0
+# 
+#
+#=======================================
+
+A08                1 nnnnnnnnnnnnnnnnnnnnntcnnnnnnnattttgtttnaactttaaga     50
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08               51 aggagatatacatatgagcgagaacaccttnnnntttccggcaaccttta    100
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              101 tgtggggcaccagcaccagcagctatcagattgaaggtggcaccgatgaa    150
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              151 ggtggtcgtaccccgagcatttgggataccttttgtcagattccgggtaa    200
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              201 agttattggtggtgattgtggtgatgttgcctgtgatcattttcaccact    250
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              251 ttaaagaagatgtgcagctgatgaaacagctgggttttctgcattatcgt    300
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              301 tttagcgttgcatggcctcgtattatgcctgcagcaggtattatcaatga    350
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              351 agagggtctgctgttttatgagcatctgctggatgaaattgaactggcag    400
+                                                                       
+A08             1057 --------------------------------------------------   1058
+
+A08              401 gtctgattccgatgctgaccctgtatcattgggatctgccgcagtggatt    450
+                                             ......||..|.|.|.|||.||||||
+A08             1057 ------------------------ncatngggnttntncngcantggatt   1032
+
+A08              451 gaagatgaaggcggttggacccagcgtgaaaccattcagcatttcaaaac    500
+                     |||||||||...|.||||.|||||||||||.|||||||||||||| ||||
+A08             1031 gaagatgaannngnttggncccagcgtgaanccattcagcatttc-aaac    983
+
+A08              501 ctatgccagcgttatcatggatcgttttggtgaacgtattaa-ttggtgg    549
+                     |||||||||||||||||||||||||||||||||||||||||| |||||||
+A08              982 ctatgccagcgttatcatggatcgttttggtgaacgtattaatttggtgg    933
+
+A08              550 aacaccatcaatgaaccgtattg-tgcaagcattctgggttatggcaccg    598
+                     ||||||||||||||||||||||| .|||||||||||||||||||||||||
+A08              932 aacaccatcaatgaaccgtattgnngcaagcattctgggttatggcaccg    883
+
+A08              599 gtgaacatgcaccgggtcatgaaaattggcgtgaagcatttaccgcagca    648
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A08              882 gtgaacatgcaccgggtcatgaaaattggcgtgaagcatttaccgcagca    833
+
+A08              649 catcatattctgatgtgtcatggtattgcaagcaacctgcataaagaaaa    698
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A08              832 catcatattctgatgtgtcatggtattgcaagcaacctgcataaagaaaa    783
+
+A08              699 aggtctgaccggtaaaattggcattaccctgaatatggaacatgttgatg    748
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A08              782 aggtctgaccggtaaaattggcattaccctgaatatggaacatgttgatg    733
+
+A08              749 cagcaagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatggt    798
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A08              732 cagcaagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatggt    683
+
+A08              799 tttatcaatcgttggtttgcagaaccgctgttcaatggtaaatatcctga    848
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A08              682 tttatcaatcgttggtttgcagaaccgctgttcaatggtaaatatcctga    633
+
+A08              849 agatatggtggaatggtatggcacctatctgaatggtctggattttgttc    898
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+A08              632 agatatggtggaatggtatggcacctatctgaatggtctggattttgttc    583
+
+A08              899 agcctggnngatatggaactgattcagcagccaggtganttttnngggca    948
+                     |||||||  ||||||||||||||||||||||||||||| ||||  |||||
+A08              582 agcctgg-tgatatggaactgattcagcagccaggtga-ttttctgggca    535
+
+A08              949 ttaactattatacccgtagcattattcgcagcancaatgatgcaagcctg    998
+                     ||||||||||||||||||||||||||||||||| ||||||||||||||||
+A08              534 ttaactattatacccgtagcattattcgcagcaccaatgatgcaagcctg    485
+
+A08              999 ctgcaagcggancnngtncnnnatnn------------------------   1024
+                     ||||||||||| |  || |   ..                          
+A08              484 ctgcaagcggaacaggttcacatggaagaaccggttaccgatatgggttg    435
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              434 ggaaattcatccggaaagcttctataaactgctgacccgcattgaaaaag    385
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              384 attttagcaaaggtctgccgatcctgattaccgaaaatggtgcagcaatg    335
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              334 cgtgatgaactggttaatggtcagatcgaagataccggtcgtcatggtta    285
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              284 tattgaagaacatctgaaagcctgccaccgctttatcgaagaaggtggcc    235
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              234 agctgaaaggttattttgtttggagctttctggataactttgaatgggca    185
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              184 tggggttatagcaaacgttttggtattgtccacatcaactatgaaaccca    135
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08              134 agaacgcaccccgaaacagagcgcactgtggtttaaacaaatgatggcca     85
+
+A08             1025 --------------------------------------------------   1024
+                                                                       
+A08               84 aaaatggtttcggcagcctcgagcaccaccaccaccaccactgagatccg     35
+
+A08             1025 ----------------------------------   1024
+                                                       
+A08               34 gctgntnncaaagccnnnnnnnnnannnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:             A08             A08
+#              position base   position base Using
+#                   426  'T'          2  'c'   'T'
+#                   427  'C'          3  'a'   'C'
+#                   428  'A'          4  't'   'A'
+#                   430  'T'          6  'g'   'T'
+#                   434  'A'         10  't'   'A'
+#                   496  'A'         72  '.'   'A'
+#                   543  '.'        118  't'   '.'
+#                   573  '.'        149  'n'   '.'
+#                   906  'n'        483  '.'   '.'
+#                   937  'n'        513  '.'   '.'
+#                  1021  'a'        596  'T'   'T'
+#                  1022  't'        597  'G'   'G'
+# 
+#
+#---------------------------------------

@@ -1,0 +1,181 @@
+########################################
+# Program: merger
+# Rundate: Wed 24 Feb 2016 11:28:32
+# Commandline: merger
+#    -asequence 191641_dna_seq_rep_8852898_zip/H09_U5271BB220-19_A7-1_T7.ab1
+#    -bsequence 191641_dna_seq_rep_8852898_zip/H09_U5271BB220-61_A7-1_T7-Ter.ab1
+#    -sreverse2
+#    -outfile 191641_dna_seq_rep_8852898_zip//H09.merger
+#    -outseq 191641_dna_seq_rep_8852898_zip//H09.fa
+# Align_format: simple
+# Report_file: 191641_dna_seq_rep_8852898_zip/H09.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: U5271BB220-19_A7-1_T7
+# 2: U5271BB220-61_A7-1_T7-Ter
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1480
+# Identity:     569/1480 (38.4%)
+# Similarity:   569/1480 (38.4%)
+# Gaps:         890/1480 (60.1%)
+# Score: 2711.0
+# 
+#
+#=======================================
+
+U5271BB220-19      1 ctttaccggttcctttcccctctagaaataattttgtttaactttaagaa     50
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19     51 ggagatatacatatgagcgagaacacctttatctttccggcaaccttttg    100
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    101 tggggcaccagcaccagcagctatcagattgaaggtggcaccgatgaagg    150
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    151 tggtcgtaccccgagcatttgggataccttttgtcagattccgggtaaag    200
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    201 ttattggtggtgattgtggtgatgttgcctgtgatcattttcaccacttt    250
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    251 aaagaagatgtgcagctgatgaaacagctgggttttctgcattatcgttt    300
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    301 tagcgttgcatggcctcgtattatgcctgcagcaggtattatcaatgaag    350
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    351 agggtctgctgttttatgagcatctgctggatgaaattgaactggcaggt    400
+                                                                       
+U5271BB220-61   1050 --------------------------------------------------   1051
+
+U5271BB220-19    401 ctgattccgatgctgaccctgtattggtgggatctgccgcagtggattga    450
+                                                   ..|||||..|||||||||||
+U5271BB220-61   1050 ------------------------------attctgcgccagtggattga   1031
+
+U5271BB220-19    451 agatgaaggcggttggacccagcgtgaaaccattcagcatttcaaaacct    500
+                     |||||||||||||||||||||||||||||||..||||||||.||||||||
+U5271BB220-61   1030 agatgaaggcggttggacccagcgtgaaacccatcagcattccaaaacct    981
+
+U5271BB220-19    501 atgccagcgttatcatggatcgttttggtgaacgtattaattggtggaac    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    980 atgccagcgttatcatggatcgttttggtgaacgtattaattggtggaac    931
+
+U5271BB220-19    551 accatcaatgaaccgtattgtgcaagcattctgggttatggcaccggtga    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    930 accatcaatgaaccgtattgtgcaagcattctgggttatggcaccggtga    881
+
+U5271BB220-19    601 acatgcaccgggtcatgaaaattggcgtgaagcatttaccgcagcacatc    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    880 acatgcaccgggtcatgaaaattggcgtgaagcatttaccgcagcacatc    831
+
+U5271BB220-19    651 atattctgatgtgtcatggtattgcaagcaacctgcataaagaaaaaggt    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    830 atattctgatgtgtcatggtattgcaagcaacctgcataaagaaaaaggt    781
+
+U5271BB220-19    701 ctgaccggtaaaattggcattaccctgaatatggaacatgttgatgcagc    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    780 ctgaccggtaaaattggcattaccctgaatatggaacatgttgatgcagc    731
+
+U5271BB220-19    751 aagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatggtttta    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    730 aagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatggtttta    681
+
+U5271BB220-19    801 tcaatcgttggtttgcagaaccgctgttcaatggtaaatatcctgaagat    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    680 tcaatcgttggtttgcagaaccgctgttcaatggtaaatatcctgaagat    631
+
+U5271BB220-19    851 atggtggaatggtatggcacctatctgaatggtctggattttgttcagcc    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    630 atggtggaatggtatggcacctatctgaatggtctggattttgttcagcc    581
+
+U5271BB220-19    901 tggtgatatggaactgattcagcagccaggtgattttctgggcattaact    950
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+U5271BB220-61    580 tggtgatatggaactgattcagcagccaggtgattttctgggcattaact    531
+
+U5271BB220-19    951 attatacccgtagcattattcgcagca-caatgatgcaagcctgctgcaa    999
+                     ||||||||||||||||||||||||||| ||||||||||||||||||||||
+U5271BB220-61    530 attatacccgtagcattattcgcagcaccaatgatgcaagcctgctgcaa    481
+
+U5271BB220-19   1000 gtttgaaacagggtctacata-----------------------------   1020
+                     |||..|.|......|.....|                             
+U5271BB220-61    480 gttgaacaggttcacatggaagaaccggttaccgatatgggttgggaaat    431
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    430 tcatccggaaagcttctataaactgctgacccgcattgaaaaagatttta    381
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    380 gcaaaggtctgccgatcctgattaccgaaaatggtgcagcaatgcgtgat    331
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    330 gaactggttaatggtcagatcgaagataccggtcgtcatggttatattga    281
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    280 agaacatctgaaagcctgccaccgctttatcgaagaaggtggccagctga    231
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    230 aaggttattttgtttggagctttctggataactttgaatgggcatggggt    181
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    180 tatagcaaacgttttggtattgtccacatcaactatgaaacccaagaacg    131
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61    130 caccccgaaacagagcgcactgtggtttaaacaaatgatggccaaaaatg     81
+
+U5271BB220-19   1021 --------------------------------------------------   1020
+                                                                       
+U5271BB220-61     80 gtttcggcagcctcgagcaccaccaccaccaccactgagatccggctgct     31
+
+U5271BB220-19   1021 ------------------------------   1020
+                                                   
+U5271BB220-61     30 aacaaagcccagaaaaaagaaaagcctaga      1
+
+
+#---------------------------------------
+#
+# Conflicts: U5271BB220-19_A U5271BB220-61_A
+#              position base   position base Using
+#                   431  'G'          1  'a'   'G'
+#                   432  'A'          2  't'   'A'
+#                   438  'C'          8  'g'   'C'
+#                   439  'G'          9  'c'   'G'
+#                   482  'A'         52  'c'   'A'
+#                   483  'T'         53  'a'   'T'
+#                   492  'T'         62  'c'   'T'
+#                   978  '.'        548  'c'   '.'
+#                  1003  't'        574  'G'   'G'
+#                  1004  'g'        575  'A'   'A'
+#                  1006  'a'        577  'C'   'C'
+#                  1008  'c'        579  'G'   'G'
+#                  1009  'a'        580  'G'   'G'
+#                  1010  'g'        581  'T'   'T'
+#                  1011  'g'        582  'T'   'T'
+#                  1012  'g'        583  'C'   'C'
+#                  1013  't'        584  'A'   'A'
+#                  1015  't'        586  'A'   'A'
+#                  1016  'a'        587  'T'   'T'
+#                  1017  'c'        588  'G'   'G'
+#                  1018  'a'        589  'G'   'G'
+#                  1019  't'        590  'A'   'A'
+# 
+#
+#---------------------------------------

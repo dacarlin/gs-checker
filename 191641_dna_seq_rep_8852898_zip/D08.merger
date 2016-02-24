@@ -1,0 +1,190 @@
+########################################
+# Program: merger
+# Rundate: Wed 24 Feb 2016 11:22:13
+# Commandline: merger
+#    -asequence 191641_dna_seq_rep_8852898_zip//D08.fwd.fasta
+#    -bsequence 191641_dna_seq_rep_8852898_zip//D08.rev.fasta
+#    -sreverse2
+#    -outfile 191641_dna_seq_rep_8852898_zip//D08.merger
+#    -outseq 191641_dna_seq_rep_8852898_zip//D08.fa
+# Align_format: simple
+# Report_file: 191641_dna_seq_rep_8852898_zip/D08.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: D08
+# 2: D08
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1492
+# Identity:     515/1492 (34.5%)
+# Similarity:   515/1492 (34.5%)
+# Gaps:         879/1492 (58.9%)
+# Score: 2020.0
+# 
+#
+#=======================================
+
+D08                1 nnnnnnnnnnnnnntnnnccctcctannnnnaattttgtttaactttaag     50
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08               51 aaggagatatacatatgagcgagaacacctttntctttccggcaaccttt    100
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08              101 atgtggggcaccagcaccagcagctatcagattgaaggtggcaccgatga    150
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08              151 aggtggtcgtaccccgagcatttgggataccttttgtcagattccgggta    200
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08              201 aagttattggtggtgattgtggtgatgttgcctgtgatcattttcaccac    250
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08              251 tttaaagaagatgtgcagctgatgaaacagctgggttttctgcattatcg    300
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08              301 ttttagcgttgcatggcctcgtattatgcctgcagcaggtattatcaatg    350
+                                                                       
+D08             1095 --------------------------------------------------   1096
+
+D08              351 aagagggtctgctgttttatgagcatctgctggatgaaattgaactggca    400
+                                                              .........
+D08             1095 -----------------------------------------nnnnnnnnn   1087
+
+D08              401 ggtctgattccgatgctgaccctgtatcattgggatctg---ccgcagtg    447
+                     .......||..||||....|||...........|...|.   |....|||
+D08             1086 nnntnnnttnngatgnnnncccnnnnntcnnnnggnntnngccnnnngtg   1037
+
+D08              448 gattgaagatgaaggcggttggacccagcgtgaaaccattcagcatttca    497
+                     ||||||||||||  ...||||||||||||..|||.|||||||||||||| 
+D08             1036 gattgaagatga--nnngttggacccagcnngaanccattcagcatttc-    990
+
+D08              498 aaacctatgccagcgttatcatggatcgttttggtgaacgtattaattgg    547
+                     |||...||.|||||||||||||||||||||||||||||||||||||||||
+D08              989 aaannnatnccagcgttatcatggatcgttttggtgaacgtattaattgg    940
+
+D08              548 tggaacaccatcaatgaaccgtattgtgcaagcattctgggttatggcac    597
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+D08              939 tggaacaccatcaatgaaccgtattgtgcaagcattctgggttatggcac    890
+
+D08              598 cggtgaacatgcaccgggtcatgaaaattggcgtgaagcatttaccgcag    647
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+D08              889 cggtgaacatgcaccgggtcatgaaaattggcgtgaagcatttaccgcag    840
+
+D08              648 cacatcatattctgatgtgtcatggtattgcaagcaacctgcataaagaa    697
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+D08              839 cacatcatattctgatgtgtcatggtattgcaagcaacctgcataaagaa    790
+
+D08              698 aaaggtctgaccggtaaaattggcattaccctgaatatggaacatgttga    747
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+D08              789 aaaggtctgaccggtaaaattggcattaccctgaatatggaacatgttga    740
+
+D08              748 tgcagcaagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatg    797
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+D08              739 tgcagcaagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatg    690
+
+D08              798 gttttatcaatcgttggtttgcanaaccgctgttcaatggtaaatatcct    847
+                     ||||||||||||||||||||||| ||||||||||||||||||||||||||
+D08              689 gttttatcaatcgttggtttgcagaaccgctgttcaatggtaaatatcct    640
+
+D08              848 gaagatatggtggaantggtatggcacctatctgaatggtctggattttg    897
+                     ||||||||||||||| ||||||||||||||||||||||||||||||||||
+D08              639 gaagatatggtggaa-tggtatggcacctatctgaatggtctggattttg    591
+
+D08              898 ttcagcctggtganatggnaantgagntncancnncngtgattttctggn    947
+                     ||||||||||||| |||| || |||. . .. .  . |||||||||||| 
+D08              590 ttcagcctggtgatatgg-aactgattcagcagccaggtgattttctggg    542
+
+D08              948 cattnactattantaccccgtannntnatccnnnnnccnatnnagcannc    997
+                     |||| ||||||| |||||....   | .||.     || ||  .|||  |
+D08              541 cattaactatta-tacccgtagcattattcgcagcaccaatgatgcaagc    493
+
+D08              998 ntgcntgncagtn-------------------------------------   1010
+                      ||| .. ...|                                      
+D08              492 ctgctgcaagttgaacaggttcacatggaagaaccggttaccgatatggg    443
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              442 ttgggaaattcatccggaaagcttctataaactgctgacccgcattgaaa    393
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              392 aagattttagcaaaggtctgccgatcctgattaccgaaaatggtgcagca    343
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              342 atgcgtgatgaactggttaatggtcagatcgaagataccggtcgtcatgg    293
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              292 ttatattgaagaacatctgaaagcctgccaccgctttatcgaagaaggtg    243
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              242 gccagctgaaaggttattttgtttggagctttctggataactttgaatgg    193
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              192 gcatggggttatagcaaacgttttggtattgtccacatcaactatgaaac    143
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08              142 ccaagaacgcaccccgaaacagagcgcactgtggtttaaacaaatgatgg     93
+
+D08             1011 --------------------------------------------------   1010
+                                                                       
+D08               92 ccaaaaatggtttcggcagcctcgagcaccaccaccnccaccaactgaga     43
+
+D08             1011 ------------------------------------------   1010
+                                                               
+D08               42 tccggctgnnnncaaangccnnnnnnnnnnaannnnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:             D08             D08
+#              position base   position base Using
+#                   404  'C'         13  't'   'C'
+#                   428  'C'         37  't'   'C'
+#                   429  'A'         38  'c'   'A'
+#                   435  'A'         44  'g'   'A'
+#                   440  '.'         49  'n'   '.'
+#                   440  '.'         50  'g'   '.'
+#                   440  '.'         51  'c'   '.'
+#                   460  'A'         72  '.'   'A'
+#                   461  'G'         72  '.'   'G'
+#                   497  'A'        107  '.'   'A'
+#                   863  'n'        472  '.'   '.'
+#                   916  'n'        524  '.'   '.'
+#                   923  'g'        530  'T'   'T'
+#                   925  't'        532  'C'   'C'
+#                   927  'c'        534  'G'   'G'
+#                   928  'a'        535  'C'   'C'
+#                   930  'c'        537  'G'   'G'
+#                   933  'c'        540  'A'   'A'
+#                   960  'n'        567  '.'   '.'
+#                   966  'c'        572  'G'   'G'
+#                   967  'g'        573  'T'   'T'
+#                   968  't'        574  'A'   'A'
+#                   969  'a'        575  'G'   'G'
+#                   975  'a'        581  'T'   'T'
+#                   978  'c'        584  'G'   'G'
+#                   991  'a'        597  'T'   'T'
+#                  1003  't'        609  'G'   'G'
+#                  1004  'g'        610  'C'   'C'
+#                  1006  'c'        612  'A'   'A'
+#                  1007  'a'        613  'G'   'G'
+#                  1008  'g'        614  'T'   'T'
+# 
+#
+#---------------------------------------

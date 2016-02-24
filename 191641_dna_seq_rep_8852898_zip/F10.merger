@@ -1,0 +1,189 @@
+########################################
+# Program: merger
+# Rundate: Wed 24 Feb 2016 11:22:14
+# Commandline: merger
+#    -asequence 191641_dna_seq_rep_8852898_zip//F10.fwd.fasta
+#    -bsequence 191641_dna_seq_rep_8852898_zip//F10.rev.fasta
+#    -sreverse2
+#    -outfile 191641_dna_seq_rep_8852898_zip//F10.merger
+#    -outseq 191641_dna_seq_rep_8852898_zip//F10.fa
+# Align_format: simple
+# Report_file: 191641_dna_seq_rep_8852898_zip/F10.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: F10
+# 2: F10
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1486
+# Identity:     510/1486 (34.3%)
+# Similarity:   510/1486 (34.3%)
+# Gaps:         856/1486 (57.6%)
+# Score: 1815.0
+# 
+#
+#=======================================
+
+F10                1 nnnnnnnnnnnnnnnnnnnnnctnnaantaattttgtttaactttaagaa     50
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10               51 ggagatatacatatgagcgagaacacctttatctttccggcaacctttat    100
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10              101 gtggggcaccagcaccagcagctatcagattgaaggtggcaccgatgaag    150
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10              151 gtggtcgtaccccgagcatttgggataccttttgtcagattccgggtaaa    200
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10              201 gttattggtggtgattgtggtgatgttgcctgtgatcattttcaccactt    250
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10              251 taaagaagatgtgcagctgatgaaacagctgggttttctgcattatcgtt    300
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10              301 ttagcgttgcatggcctcgtattatgcctgcagcaggtattatcaatgaa    350
+                                                                       
+F10             1085 --------------------------------------------------   1086
+
+F10              351 gagggtctgctgttttatgagcatctgctggatgaaattgaactggcagg    400
+                                                                  .....
+F10             1085 ---------------------------------------------nnnnn   1081
+
+F10              401 tctgattccgatgctgaccctgtatcattgggatctgccgcagtggattg    450
+                     ||.|.....|..............|.........|..|.|..|.......
+F10             1080 tcngnnnnngnnnnnnnnnnccnntgggnnntgncnncagnnggattnaa   1031
+
+F10              451 aagatgaaggcggttgga-cccagcgtgaaaccattcagcatttcaaaac    499
+                     ......|.|||||||||| ||||...||||.|||||||.|.|||||||||
+F10             1030 nnannaanggcggttggaccccannntgaanccattcancntttcaaaac    981
+
+F10              500 ctatgccagcgttatcatggatcgttttggtgaacgtattaattggtgga    549
+                     .....|||||| |.||||||||||||||.|||||||...|||||||||..
+F10              980 nannnccagcg-tntcatggatcgttttngtgaacgnnntaattggtgnn    932
+
+F10              550 acaccatcaatgaaccgtattgtgcaagcattctgggttatggcaccggt    599
+                     ||||||||||||||||||||||||||||||||.|||||||.|||||||||
+F10              931 acaccatcaatgaaccgtattgtgcaagcattntgggttanggcaccggt    882
+
+F10              600 gaacatgcaccgggtcatgaaaattggcgtgaagcatttaccgcagcaca    649
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+F10              881 gaacatgcaccgggtcatgaaaattggcgtgaagcatttaccgcagcaca    832
+
+F10              650 tcatattctgatgtgtcatggtattgcaagcaacctgcataaagaaaaag    699
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+F10              831 tcatattctgatgtgtcatggtattgcaagcaacctgcataaagaaaaag    782
+
+F10              700 gtctgaccggtaaaattggcattaccctgaatatggaacatgttgatgca    749
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+F10              781 gtctgaccggtaaaattggcattaccctgaatatggaacatgttgatgca    732
+
+F10              750 gcaagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatggttt    799
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+F10              731 gcaagcgaacgtccggaagatgttgccgcagcaattcgtcgtgatggttt    682
+
+F10              800 tatcaatcgttggtttgcagaaccgctgttcaatggtaaatatcctgaag    849
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+F10              681 tatcaatcgttggtttgcagaaccgctgttcaatggtaaatatcctgaag    632
+
+F10              850 atatggtggaatggtatggcacctatctgaatggtcctggaattttgttc    899
+                     ||||||||||||||||||||||||||||||||||||  .|.|||||||||
+F10              631 atatggtggaatggtatggcacctatctgaatggtc--tggattttgttc    584
+
+F10              900 ngcnnnggnganntnnaantnnnnccnncanccaggtgatttttcnnggc    949
+                      ||   || ||  |  || |     |  || |||||||| |||||  |||
+F10              583 agc-ctggtgatatggaactgatt-cagcagccaggtga-ttttctgggc    537
+
+F10              950 attaatnntnatacccntagca-tnntnncancnccnatgangc-ancct    997
+                     |||||.  | |||||| ||||| |  |  || | || |||| || | |||
+F10              536 attaaatattatacccgtagcattattcgcagcaccaatgatgcaagcct    487
+
+F10              998 gctgc-agttnaanngnnnnnnatggaanaanngn---------------   1031
+                     ||||| |||| ||  |      |||||| ||  |                
+F10              486 gctgcaagttgaacaggttcacatggaagaaccggttaccgatatgggtt    437
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              436 gggaaattcatccggaaagcttctataaactgctgacccgcattgaaaaa    387
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              386 gattttagcaaaggtctgccgatcctgattaccgaaaatggtgcagcaat    337
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              336 gcgtgatgaactggttaatggtcagatcgaagataccggtcgtcatggtt    287
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              286 atattgaagaacatctgaaagcctgccaccgctttatcgaagaaggtggc    237
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              236 cagctgaaaggttattttgtttggagctttctggataactttgaatgggc    187
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              186 atggggttatagcaaacgttttggtattgtccacatcaactatgaaaccc    137
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10              136 aagaacgcaccccgaaacagagcgcactgtggtttaaacaaatgatggcc     87
+
+F10             1032 --------------------------------------------------   1031
+                                                                       
+F10               86 aaaaatggtttcggcagcctcgagcaccaccaccaccaccactgagatcc     37
+
+F10             1032 ------------------------------------   1031
+                                                         
+F10               36 ggctgctaacaaagccccgnaannnnnnnnnnnnnn      1
+
+
+#---------------------------------------
+#
+# Conflicts:             F10             F10
+#              position base   position base Using
+#                   421  'T'         26  'c'   'T'
+#                   422  'G'         27  'c'   'G'
+#                   426  'C'         31  'g'   'C'
+#                   427  'A'         32  'g'   'A'
+#                   428  'T'         33  'g'   'T'
+#                   432  'G'         37  't'   'G'
+#                   433  'A'         38  'g'   'A'
+#                   439  'C'         44  'a'   'C'
+#                   444  'T'         49  'g'   'T'
+#                   445  'G'         50  'a'   'G'
+#                   446  'G'         51  't'   'G'
+#                   447  'A'         52  't'   'A'
+#                   449  'T'         54  'a'   'T'
+#                   450  'G'         55  'a'   'G'
+#                   453  'G'         58  'a'   'G'
+#                   456  'G'         61  'a'   'G'
+#                   469  '.'         74  'c'   '.'
+#                   501  'T'        107  'a'   'T'
+#                   511  'T'        117  '.'   'T'
+#                   886  'c'        491  '.'   '.'
+#                   887  't'        491  '.'   '.'
+#                   888  'g'        491  'T'   'T'
+#                   890  'a'        493  'G'   'G'
+#                   903  'n'        506  '.'   '.'
+#                   924  'c'        526  '.'   '.'
+#                   939  't'        540  '.'   '.'
+#                   955  't'        555  'A'   'A'
+#                   972  '.'        572  'T'   'T'
+#                   993  '.'        594  'A'   'A'
+#                  1003  '.'        605  'A'   'A'
+# 
+#
+#---------------------------------------
