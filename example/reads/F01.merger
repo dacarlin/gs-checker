@@ -1,0 +1,163 @@
+########################################
+# Program: merger
+# Rundate: Tue 23 Feb 2016 17:52:57
+# Commandline: merger
+#    -asequence example/reads/i244e-3_T7_Plate_Plate02_F01.seq
+#    -bsequence example/reads/i244e-3_T7term_Plate_Plate01_F01.seq
+#    -sreverse2
+#    -outfile example/reads/F01.merger
+#    -outseq example/reads/F01.fa
+# Align_format: simple
+# Report_file: example/reads/F01.merger
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: i244e-3_T7
+# 2: i244e-3_T7term
+# Matrix: EDNAFULL
+# Gap_penalty: 50.0
+# Extend_penalty: 5.0
+#
+# Length: 1474
+# Identity:       6/1474 ( 0.4%)
+# Similarity:     6/1474 ( 0.4%)
+# Gaps:        1462/1474 (99.2%)
+# Score: 10.0
+# 
+#
+#=======================================
+
+i244e-3_T7         1 nnnnnnnnnnnnnnnnnnccccctataaatnnttttttttantttannan     50
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7        51 gagatnntcatanngagnggaaatccttttttnttccgggacctnttnag    100
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       101 ggggggacccnncccctaccttantnntgngnggcggaacnaagaggggg    150
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       151 gnccccncccacanttagnncaanacntcagatnnaagccngngntattn    200
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       201 nntnnntnnttnnggtggnnnggtctgctnttnannntccntntanaaat    250
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       251 anaanntngnattnganganancnnntgnnnnttantancnttgttgggn    300
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       301 tncgncttcannnttcatgcgtgtnnatnntatanctgnnntnngngtct    350
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       351 ncttttttaanttcatcnccgatattannaanantttttnantnactcnn    400
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       401 atnnacncnntgnanctttttttgtatcnttntanaannnttangaanna    450
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       451 gnntgcaagcanaannnnntcaaanctaacncctanatantattgtnatn    500
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       501 nannacnntttnaacatgntaatactnggaagaccatctttaaaaatctt    550
+                                                                       
+i244e-3_T7ter    905 --------------------------------------------------    906
+
+i244e-3_T7       551 tntggtagtaagnatnctgaataaattctnn-------------------    581
+                                        |.|.||.|.|                     
+i244e-3_T7ter    905 -------------------actgaactttgtccgggctagcccctgccaa    875
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    874 tgtaactcgggacgggattcatcagcctgccagcacatacttatgctcag    825
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    824 ccattgtatattcagcgagcctacgggtatgaaaggaagctgtgaccaag    775
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    774 gaaaaagagtgcgctaagcccgaatatgccggcacctggatcctgacaag    725
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    724 caacatgtcggaagtcagtgaccccgcggcagtcggcgctaaagtttttt    675
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    674 gtcattattgttttgcagtagccgtttcaaaaggtcaatatctctggtaa    625
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    624 atatcgtggaaaatgtaggggcacggtatggcatggttaggattttgatg    575
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    574 gatctggttcaacctggactgtaaggcgcaggccaagcattttgttggca    525
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    524 tttcgttcttcaaccgtagcgcttgctgcctggttgttccggagaaggca    475
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    474 tgcagtttgaacagtaacaggttagcaggaggaccggctgcgttgggggg    425
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    424 gggaaggcttcggctcagtttttaaaccccgcccaccagaaagaaaaaaa    375
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    374 ataagaggttcgcgattcttgataaaagagagaggctcagcgtgggatga    325
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    324 tgaattggtgacttatcggagagacctgtgttcgtgtttatagtaaagaa    275
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    274 tataaacacgcaaccccgcccccgtttaagggggaaggggggcaagggga    225
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    224 aagttatttgggatttatgtatatggctaaataggcgcgcgggggggcgc    175
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    174 aaaactttttggtttgttcacctcctatataaacccaaaaacacaccccc    125
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter    124 aaaaagaaaggcgtgggggtttaaaaaaaagggggcaacaagagggtttg     75
+
+i244e-3_T7       582 --------------------------------------------------    581
+                                                                       
+i244e-3_T7ter     74 gggccgcctgcgccaccacccccccccccgatgagagcgggctggaacac     25
+
+i244e-3_T7       582 ------------------------    581
+                                             
+i244e-3_T7ter     24 agcagaagaagggagggtttggtt      1
+
+
+#---------------------------------------
+#
+# Conflicts:      i244e-3_T7  i244e-3_T7term
+#              position base   position base Using
+#                   571  'A'          2  'c'   'A'
+#                   573  'A'          4  'g'   'A'
+#                   576  't'          7  'C'   'C'
+#                   578  'c'          9  'T'   'T'
+# 
+#
+#---------------------------------------
