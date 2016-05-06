@@ -1,10 +1,15 @@
 # Automatic sequence verifier for Kunkel mutagenesis 
 
-After you've recieved Sanger sequencing results from your Kunkel constructs, you'll have paired reads for each clone, one forward and one revser, each covering about two thirds of the gene (approximately 1,500 bp). 
+After you've recieved Sanger sequencing results, you'll have paired reads for each clone (picked colony), one forward and one reverse. This notebook will help you 
+
+1. pair the two reads (taking the quality scores into account) into a consensus sequence 
+2. determine the differences between the consensus sequence and a given reference sequence 
+
+Since we are doing mutagenesis for protein design, we care only about the amino acid sequence. We use `blastx` to align all three frames of our nucleotide sequence to a reference amino acid sequence. 
 
 ## Input files 
 
-+ paired Sanger reads 
++ Sanger reads (.ab1 format) 
 + wild type amino acid sequence 
 
 ## Instructions for use 
